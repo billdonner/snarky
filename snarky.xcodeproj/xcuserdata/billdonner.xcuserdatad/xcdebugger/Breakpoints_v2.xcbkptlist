@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7B3CB73E-2822-40CD-A701-D5E82930F5AA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8524C4B4-443D-476C-A4F1-357C7ABD278E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "snarky/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "parseJSON(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8524C4B4-443D-476C-A4F1-357C7ABD278E - c17e8896ac171464"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "snarky.parseSubstitutionsJSONFile(Foundation.URL) throws -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "snarky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billdonner/Documents/snarky/snarky/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "8524C4B4-443D-476C-A4F1-357C7ABD278E - 1584f8a369881622"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "snarky.parseJSON(Foundation.URL) throws -&gt; Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;"
+                  moduleName = "snarky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billdonner/Documents/snarky/snarky/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AAFBA76-DA27-49EB-878B-CABA860C26B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "snarky/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "snarky_essence(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9AAFBA76-DA27-49EB-878B-CABA860C26B0 - 6fcc9c1809cbb063"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "snarky.Snarky.snarky_essence(Foundation.URL, Foundation.URL) throws -&gt; ()"
+                  moduleName = "snarky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billdonner/Documents/snarky/snarky/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "2180">
+               </Location>
+               <Location
+                  uuid = "9AAFBA76-DA27-49EB-878B-CABA860C26B0 - 6fcc9c1809cbb063"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "snarky.Snarky.snarky_essence(Foundation.URL, Foundation.URL) throws -&gt; ()"
+                  moduleName = "snarky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billdonner/Documents/snarky/snarky/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+               <Location
+                  uuid = "9AAFBA76-DA27-49EB-878B-CABA860C26B0 - 6fcc9c1809cbb134"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "snarky.Snarky.snarky_essence(Foundation.URL, Foundation.URL) throws -&gt; ()"
+                  moduleName = "snarky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billdonner/Documents/snarky/snarky/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
