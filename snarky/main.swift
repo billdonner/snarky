@@ -7,25 +7,7 @@
 import Foundation
 
 import ArgumentParser
-
-struct TopicData : Codable {
-  var snarky:String
-  var version:String
-  var author:String
-  var date:String
-  var purpose:String
-  var topics:[Topic]
-}
-
-struct Topic : Codable {
-  var name: String
-  var subject: String
-  var per: Int
-  var desired:Int
-  var pic: String // symbol or url
-  var notes: String // editors comments
-  
-}
+import q20kshare
 
 func generatePumperStuff(_ inputTextFile: URL, _ substitutions: [[String]]) throws  -> String  {
   let template0:String = try String(contentsOf: inputTextFile)
@@ -57,7 +39,7 @@ struct Snarky: ParsableCommand {
   static var configuration = CommandConfiguration(
     abstract: "Generate A Script of ChatGPT Prompts From One Template and JSON File of Topic Data",
     discussion: "The template file is any file with $0 - $9 symbols that are replaced by values supplied in the JSON File.\nEach line of the JSON generates another prompt appended to the output script.\n",
-    version: "0.3.2")
+    version: "0.3.3")
   
   @Argument(  help: "The template file URL")
   var inputTextFileURL: String
@@ -83,7 +65,8 @@ struct Snarky: ParsableCommand {
     }
   }
   
-  func snarky_essence(_ substitutionsJSONFile: URL, _ inputTextFile: URL) throws {
+  func snarky_essence(_ substitutionsJSONFile: URL,
+                      _ inputTextFile: URL) throws {
     let outputTextFile = output != nil ? URL(string: output!) : nil
     let substitutions = Array(try parseJSON(substitutionsJSONFile))
     

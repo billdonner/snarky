@@ -1,6 +1,6 @@
 #  Snarky
 
-Snarky version 0.3.2
+Snarky version 0.3.3
 
 Snarky builds script files for Pumper
 
@@ -38,5 +38,5 @@ Here's some sample JSON:
         
         This will create a script to pump two topics from ChatGPT, or other AI.
          
-Amen
+Fini
 

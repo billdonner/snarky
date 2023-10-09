@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8867266B2AD442DA00A81C8C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8867266A2AD442DA00A81C8C /* main.swift */; };
 		886726732AD447AA00A81C8C /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 886726722AD447AA00A81C8C /* ArgumentParser */; };
+		8867267A2AD477BE00A81C8C /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 886726792AD477BE00A81C8C /* q20kshare */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8867267A2AD477BE00A81C8C /* q20kshare in Frameworks */,
 				886726732AD447AA00A81C8C /* ArgumentParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +86,7 @@
 			name = snarky;
 			packageProductDependencies = (
 				886726722AD447AA00A81C8C /* ArgumentParser */,
+				886726792AD477BE00A81C8C /* q20kshare */,
 			);
 			productName = snarky;
 			productReference = 886726672AD442DA00A81C8C /* snarky */;
@@ -115,6 +118,7 @@
 			mainGroup = 8867265E2AD442DA00A81C8C;
 			packageReferences = (
 				886726712AD447AA00A81C8C /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				886726782AD477BE00A81C8C /* XCRemoteSwiftPackageReference "q20kshare" */,
 			);
 			productRefGroup = 886726682AD442DA00A81C8C /* Products */;
 			projectDirPath = "";
@@ -309,6 +313,14 @@
 				minimumVersion = 1.2.3;
 			};
 		};
+		886726782AD477BE00A81C8C /* XCRemoteSwiftPackageReference "q20kshare" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/q20kshare";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -316,6 +328,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 886726712AD447AA00A81C8C /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
 			productName = ArgumentParser;
+		};
+		886726792AD477BE00A81C8C /* q20kshare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 886726782AD477BE00A81C8C /* XCRemoteSwiftPackageReference "q20kshare" */;
+			productName = q20kshare;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
