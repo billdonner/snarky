@@ -52,15 +52,15 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "file:///users/billdonner/desktop/prompt-related/prompt-template.txt"
+            argument = "file:///users/fs/prompt-template.txt"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "file:///users/billdonner/desktop/prompt-related/topics-5x10.json"
+            argument = "file:///users/fs/topics-2x20x25.json"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--output file:///users/billdonner/desktop/fs/between_0_1.txt"
+            argument = "--output file:///users/fs/between_0_1.txt"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument

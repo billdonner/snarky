@@ -1,6 +1,6 @@
 #  Snarky
 
-Snarky version 0.3.3
+Snarky version 0.3.5
 
 Snarky builds script files for Pumper
 
